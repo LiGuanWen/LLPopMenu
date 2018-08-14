@@ -1,0 +1,27 @@
+PODS:
+  - LLPopMenu (1.0.0)
+  - pop (1.0.10)
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - LLPopMenu (from `.`)
+  - pop
+  - XHRealTimeBlur
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - pop
+    - XHRealTimeBlur
+
+EXTERNAL SOURCES:
+  LLPopMenu:
+    :path: "."
+
+SPEC CHECKSUMS:
+  LLPopMenu: 97a0f1c652b89054712952b637bf9b6f037ddca6
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+PODFILE CHECKSUM: 92374a40609b965bc3cfa5c0124b922e08e4bba3
+
+COCOAPODS: 1.5.2

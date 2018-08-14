@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA78516321217CF5000B7780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78516221217CF5000B7780 /* AppDelegate.m */; };
+		AA78516621217CF5000B7780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78516521217CF5000B7780 /* ViewController.m */; };
+		AA78516921217CF5000B7780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA78516721217CF5000B7780 /* Main.storyboard */; };
+		AA78516C21217CF5000B7780 /* LLPopMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA78516A21217CF5000B7780 /* LLPopMenu.xcdatamodeld */; };
+		AA78516E21217CF7000B7780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA78516D21217CF7000B7780 /* Assets.xcassets */; };
+		AA78517121217CF7000B7780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA78516F21217CF7000B7780 /* LaunchScreen.storyboard */; };
+		AA78517421217CF7000B7780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78517321217CF7000B7780 /* main.m */; };
+		AA78517E21217CF7000B7780 /* LLPopMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78517D21217CF7000B7780 /* LLPopMenuTests.m */; };
+		AA78518921217CF8000B7780 /* LLPopMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78518821217CF8000B7780 /* LLPopMenuUITests.m */; };
+		F3F7484FC461BE73CC66BF4D /* libPods-LLPopMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2345F4FCDBB621B27138662F /* libPods-LLPopMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA78517A21217CF7000B7780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA78515621217CF5000B7780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA78515D21217CF5000B7780;
+			remoteInfo = LLPopMenu;
+		};
+		AA78518521217CF8000B7780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA78515621217CF5000B7780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA78515D21217CF5000B7780;
+			remoteInfo = LLPopMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2345F4FCDBB621B27138662F /* libPods-LLPopMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLPopMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41253FDCA1348DA38168D7A4 /* Pods-LLPopMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPopMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLPopMenu/Pods-LLPopMenu.release.xcconfig"; sourceTree = "<group>"; };
+		8571E15265B66E86C42EF7C5 /* Pods-LLPopMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPopMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLPopMenu/Pods-LLPopMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		AA78515E21217CF5000B7780 /* LLPopMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLPopMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78516121217CF5000B7780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA78516221217CF5000B7780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA78516421217CF5000B7780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA78516521217CF5000B7780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA78516821217CF5000B7780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA78516B21217CF5000B7780 /* LLPopMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LLPopMenu.xcdatamodel; sourceTree = "<group>"; };
+		AA78516D21217CF7000B7780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA78517021217CF7000B7780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA78517221217CF7000B7780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA78517321217CF7000B7780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA78517921217CF7000B7780 /* LLPopMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLPopMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78517D21217CF7000B7780 /* LLPopMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPopMenuTests.m; sourceTree = "<group>"; };
+		AA78517F21217CF7000B7780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA78518421217CF8000B7780 /* LLPopMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLPopMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78518821217CF8000B7780 /* LLPopMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPopMenuUITests.m; sourceTree = "<group>"; };
+		AA78518A21217CF8000B7780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA78515B21217CF5000B7780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F7484FC461BE73CC66BF4D /* libPods-LLPopMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78517621217CF7000B7780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78518121217CF8000B7780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277C0373FE57748F7F875B3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8571E15265B66E86C42EF7C5 /* Pods-LLPopMenu.debug.xcconfig */,
+				41253FDCA1348DA38168D7A4 /* Pods-LLPopMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36D259F573DE24D4366D1006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2345F4FCDBB621B27138662F /* libPods-LLPopMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA78515521217CF5000B7780 = {
+			isa = PBXGroup;
+			children = (
+				AA78516021217CF5000B7780 /* LLPopMenu */,
+				AA78517C21217CF7000B7780 /* LLPopMenuTests */,
+				AA78518721217CF8000B7780 /* LLPopMenuUITests */,
+				AA78515F21217CF5000B7780 /* Products */,
+				277C0373FE57748F7F875B3C /* Pods */,
+				36D259F573DE24D4366D1006 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA78515F21217CF5000B7780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA78515E21217CF5000B7780 /* LLPopMenu.app */,
+				AA78517921217CF7000B7780 /* LLPopMenuTests.xctest */,
+				AA78518421217CF8000B7780 /* LLPopMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA78516021217CF5000B7780 /* LLPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AA78516121217CF5000B7780 /* AppDelegate.h */,
+				AA78516221217CF5000B7780 /* AppDelegate.m */,
+				AA78516421217CF5000B7780 /* ViewController.h */,
+				AA78516521217CF5000B7780 /* ViewController.m */,
+				AA78516721217CF5000B7780 /* Main.storyboard */,
+				AA78516D21217CF7000B7780 /* Assets.xcassets */,
+				AA78516F21217CF7000B7780 /* LaunchScreen.storyboard */,
+				AA78517221217CF7000B7780 /* Info.plist */,
+				AA78517321217CF7000B7780 /* main.m */,
+				AA78516A21217CF5000B7780 /* LLPopMenu.xcdatamodeld */,
+			);
+			path = LLPopMenu;
+			sourceTree = "<group>";
+		};
+		AA78517C21217CF7000B7780 /* LLPopMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA78517D21217CF7000B7780 /* LLPopMenuTests.m */,
+				AA78517F21217CF7000B7780 /* Info.plist */,
+			);
+			path = LLPopMenuTests;
+			sourceTree = "<group>";
+		};
+		AA78518721217CF8000B7780 /* LLPopMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA78518821217CF8000B7780 /* LLPopMenuUITests.m */,
+				AA78518A21217CF8000B7780 /* Info.plist */,
+			);
+			path = LLPopMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA78515D21217CF5000B7780 /* LLPopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA78518D21217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenu" */;
+			buildPhases = (
+				2543FDC18AB06875676BE6AA /* [CP] Check Pods Manifest.lock */,
+				AA78515A21217CF5000B7780 /* Sources */,
+				AA78515B21217CF5000B7780 /* Frameworks */,
+				AA78515C21217CF5000B7780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLPopMenu;
+			productName = LLPopMenu;
+			productReference = AA78515E21217CF5000B7780 /* LLPopMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA78517821217CF7000B7780 /* LLPopMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA78519021217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenuTests" */;
+			buildPhases = (
+				AA78517521217CF7000B7780 /* Sources */,
+				AA78517621217CF7000B7780 /* Frameworks */,
+				AA78517721217CF7000B7780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA78517B21217CF7000B7780 /* PBXTargetDependency */,
+			);
+			name = LLPopMenuTests;
+			productName = LLPopMenuTests;
+			productReference = AA78517921217CF7000B7780 /* LLPopMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA78518321217CF8000B7780 /* LLPopMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA78519321217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenuUITests" */;
+			buildPhases = (
+				AA78518021217CF8000B7780 /* Sources */,
+				AA78518121217CF8000B7780 /* Frameworks */,
+				AA78518221217CF8000B7780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA78518621217CF8000B7780 /* PBXTargetDependency */,
+			);
+			name = LLPopMenuUITests;
+			productName = LLPopMenuUITests;
+			productReference = AA78518421217CF8000B7780 /* LLPopMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA78515621217CF5000B7780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					AA78515D21217CF5000B7780 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AA78517821217CF7000B7780 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AA78515D21217CF5000B7780;
+					};
+					AA78518321217CF8000B7780 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AA78515D21217CF5000B7780;
+					};
+				};
+			};
+			buildConfigurationList = AA78515921217CF5000B7780 /* Build configuration list for PBXProject "LLPopMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA78515521217CF5000B7780;
+			productRefGroup = AA78515F21217CF5000B7780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA78515D21217CF5000B7780 /* LLPopMenu */,
+				AA78517821217CF7000B7780 /* LLPopMenuTests */,
+				AA78518321217CF8000B7780 /* LLPopMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA78515C21217CF5000B7780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA78517121217CF7000B7780 /* LaunchScreen.storyboard in Resources */,
+				AA78516E21217CF7000B7780 /* Assets.xcassets in Resources */,
+				AA78516921217CF5000B7780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78517721217CF7000B7780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78518221217CF8000B7780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2543FDC18AB06875676BE6AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLPopMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA78515A21217CF5000B7780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA78516C21217CF5000B7780 /* LLPopMenu.xcdatamodeld in Sources */,
+				AA78516621217CF5000B7780 /* ViewController.m in Sources */,
+				AA78517421217CF7000B7780 /* main.m in Sources */,
+				AA78516321217CF5000B7780 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78517521217CF7000B7780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA78517E21217CF7000B7780 /* LLPopMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78518021217CF8000B7780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA78518921217CF8000B7780 /* LLPopMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA78517B21217CF7000B7780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA78515D21217CF5000B7780 /* LLPopMenu */;
+			targetProxy = AA78517A21217CF7000B7780 /* PBXContainerItemProxy */;
+		};
+		AA78518621217CF8000B7780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA78515D21217CF5000B7780 /* LLPopMenu */;
+			targetProxy = AA78518521217CF8000B7780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA78516721217CF5000B7780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA78516821217CF5000B7780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA78516F21217CF7000B7780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA78517021217CF7000B7780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA78518B21217CF8000B7780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA78518C21217CF8000B7780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA78518E21217CF8000B7780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8571E15265B66E86C42EF7C5 /* Pods-LLPopMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA78518F21217CF8000B7780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41253FDCA1348DA38168D7A4 /* Pods-LLPopMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA78519121217CF8000B7780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLPopMenu.app/LLPopMenu";
+			};
+			name = Debug;
+		};
+		AA78519221217CF8000B7780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLPopMenu.app/LLPopMenu";
+			};
+			name = Release;
+		};
+		AA78519421217CF8000B7780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLPopMenu;
+			};
+			name = Debug;
+		};
+		AA78519521217CF8000B7780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlapp.LLPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLPopMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA78515921217CF5000B7780 /* Build configuration list for PBXProject "LLPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA78518B21217CF8000B7780 /* Debug */,
+				AA78518C21217CF8000B7780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA78518D21217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA78518E21217CF8000B7780 /* Debug */,
+				AA78518F21217CF8000B7780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA78519021217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA78519121217CF8000B7780 /* Debug */,
+				AA78519221217CF8000B7780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA78519321217CF8000B7780 /* Build configuration list for PBXNativeTarget "LLPopMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA78519421217CF8000B7780 /* Debug */,
+				AA78519521217CF8000B7780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA78516A21217CF5000B7780 /* LLPopMenu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA78516B21217CF5000B7780 /* LLPopMenu.xcdatamodel */,
+			);
+			currentVersion = AA78516B21217CF5000B7780 /* LLPopMenu.xcdatamodel */;
+			path = LLPopMenu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA78515621217CF5000B7780 /* Project object */;
+}
