@@ -80,18 +80,30 @@
         self.tableView.backgroundColor = bgColor;
     }
 }
-
+//字体颜色
 - (void)setTitleColor:(UIColor *)titleColor{
     _titleColor = titleColor;
     [self.tableView reloadData];
 }
-
+//字体大小
 - (void)setTitleFont:(UIFont *)titleFont{
     _titleFont = titleFont;
     [self.tableView reloadData];
 }
+//分割线颜色
+- (void)setSeparatorColor:(UIColor *)separatorColor{
+    _separatorColor = separatorColor;
+    self.tableView.separatorColor = _separatorColor;
+    [self.tableView reloadData];
+}
 
-
+- (void)addBgViewWithBgColor:(UIColor *)bgColor alpha:(float)alpha{
+    UIView *bgView = [[UIView alloc] initWithFrame:self.bounds];
+    [self addSubview:bgView];
+    [self sendSubviewToBack:bgView];
+    bgView.backgroundColor = bgColor;
+    bgView.alpha = alpha;
+}
 #pragma mark tableviewDelegate
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

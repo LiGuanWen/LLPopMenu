@@ -17,8 +17,10 @@
 @property (strong, nonatomic) UIFont *titleFont;    //title 大小  默认15
 @property (assign, nonatomic) NSInteger maxDisplaysCount;  //当前最多显示个数
 
+@property (strong, nonatomic) UIColor *separatorColor;  //分割线颜色
 @property (copy, nonatomic) void (^dismissWithCompletionBlock)(NSString *title, NSInteger index);
 
 - (instancetype)initWithTitlesArr:(NSArray *)titlesArr imagesArr:(NSArray *)imagesArr arrowPoint:(CGPoint)arrowPoint width:(CGFloat)width rowHeight:(CGFloat)rowHeight;
 
+- (void)addBgViewWithBgColor:(UIColor *)bgColor alpha:(float)alpha;
 @end
